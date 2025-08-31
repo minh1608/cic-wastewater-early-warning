@@ -1,0 +1,18 @@
+name: cic-wastewater
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - matplotlib=3.8.4
+  - scikit-learn=1.5.1
+  - xgboost=2.0.3
+  - tabulate=0.9.0
+  - seaborn=0.13.2
+  - scipy=1.13.1
+  - pip
+  - pip:
+      # Add pip-only packages here if needed later
+      -
