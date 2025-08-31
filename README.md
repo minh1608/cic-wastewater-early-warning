@@ -47,6 +47,46 @@ After running the notebook, you will find:
 
 ---
 
+## 🚀 How to Run This Project
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/minh1608/cic-wastewater-early-warning.git
+   cd cic-wastewater-early-warning
+   ```
+
+2. **Setup environment**
+   - Using pip:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Or with conda:
+     ```bash
+     conda env create -f environment.yml
+     conda activate cic-wastewater
+     ```
+
+3. **Run the notebook**
+   - Open Jupyter or VS Code and run:
+     ```
+     notebooks/who-s-next.ipynb
+     ```
+
+4. **Reproduce results**
+   - Outputs (CSV, figures, LaTeX table, ZIP) will be generated in the project root after running all notebook cells.
+   - Main artifacts include:
+     - `nwss_long.csv`, `nwss_features.csv`, `nwss_features_labels.csv`
+     - `ablation_classification.csv`, `ablation_regression.csv`
+     - `threshold_sensitivity_results.csv`, `results_table.tex`
+     - Plots in `.png`
+     - Combined `outputs_for_paper.zip`
+
+5. **Publication**
+   - Use `results_table.tex` in LaTeX papers for ready-to-go results table.
+   - Figures can be inserted directly into your manuscript or slides.
+
+---
+
 ## 📜 Citation
 
 If you use this work, please cite:
